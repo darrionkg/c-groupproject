@@ -42,7 +42,6 @@
 /Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Gamesite.TagHelpers.input.cache
 /Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Gamesite.TagHelpers.output.cache
 /Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Gamesite.RazorCoreGenerate.cache
-/Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Razor/Views/Game/Game1.g.cshtml.cs
 /Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
 /Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Gamesite.RazorTargetAssemblyInfo.cache
 /Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Gamesite.RazorTargetAssemblyInfo.cs
@@ -50,9 +49,5 @@
 /Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Gamesite.csproj.CopyComplete
 /Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Razor/Views/Account/SignIn.g.cshtml.cs
 /Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Razor/Views/Account/SignUp.g.cshtml.cs
-/Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
-/Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
-/Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
-/Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
-/Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
-/Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Razor/Views/Game1/Game1.g.cshtml.cs
+/Users/Guest/Desktop/c-groupproject/Gamesite/obj/Debug/netcoreapp2.2/Razor/Views/Game1/Play.g.cshtml.cs
