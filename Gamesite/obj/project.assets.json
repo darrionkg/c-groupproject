@@ -12108,11 +12108,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/Gamesite.Solution/Gamesite/Gamesite.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/c-groupproject/Gamesite/Gamesite.csproj",
       "projectName": "Gamesite",
-      "projectPath": "/Users/Guest/Desktop/Gamesite.Solution/Gamesite/Gamesite.csproj",
+      "projectPath": "/Users/Guest/Desktop/c-groupproject/Gamesite/Gamesite.csproj",
       "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/Gamesite.Solution/Gamesite/obj/",
+      "outputPath": "/Users/Guest/Desktop/c-groupproject/Gamesite/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
