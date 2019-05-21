@@ -16,16 +16,21 @@ namespace Gamesite.Controllers
         }
 
         // find active user
-        // [HttpPost("/sign-in")]
-        // public ActionResult ValidateSignIn(string email, string password)
-        // {
-        //   User newUser = new User(email, password);
-        //   newUser.ActiveUser = true;
-        //   return RedirectToAction("/", newUser);
-        // }
+        [HttpPost("/sign-in")]
+        public ActionResult ValidateSignIn(string email, string password)
+        {
+          User newUser = User.Find(email, password);
+          newUser.ActiveUser = true;
+          return RedirectToAction("/", newUser);
+        }
 
         // SIGN OUT - Only will set ActiveUser to false
-
+        [HttpPost("/sign-out")]
+        public ActionResult SignOut(User user)
+        {
+          user.ActiveUser = false;
+          return RedirectToAction("/");
+        }
         [HttpGet("/sign-up")]
         public ActionResult SignUp()
         {

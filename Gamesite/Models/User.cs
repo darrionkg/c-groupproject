@@ -41,11 +41,34 @@ namespace Gamesite.Models
             MySqlConnection conn = DB.Connection();
             conn.Open();
             var cmd = conn.CreateCommand() as MySqlCommand;
-            cmd.CommandText = @"SELECT * FROM user WHERE id = (@search_id);";
-            MySqlParameter searchId = new MySqlParameter();
-            searchId.ParameterName = "@search_id";
-            searchId.Value = id;
-            cmd.Parameters.Add(searchId);
+            cmd.CommandText = @"SELECT * FROM user WHERE id = '"+id+"';";
+            int userId = 0;
+            string userUsername = "";
+            string userEmail = "";
+            string userPassword = "";
+            while(rdr.Read())
+            {
+                userId = rdr.GetInt32(0);
+                userUsername = rdr.GetString(1);
+                userEmail = rdr.GetString(2);
+                userPassword = rdr.GetString(3);
+            }
+            User newUser = new User(userUsername, userEmail, userPassword, userId);
+            conn.Close();
+            if (conn != null)
+            {
+                conn.Dispose();
+            }
+            return newUser;
+        }
+
+        //Overloaded find method using email and password
+        public static User Find(string email, string password)
+        {
+            MySqlConnection conn = DB.Connection();
+            conn.Open();
+            var cmd = conn.CreateCommand() as MySqlCommand;
+            cmd.CommandText = @"SELECT * FROM user WHERE email = '"+email+"' AND password = '"+password+"';";
             var rdr = cmd.ExecuteReader() as MySqlDataReader;
             int userId = 0;
             string userUsername = "";
