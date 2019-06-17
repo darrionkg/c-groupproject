@@ -1,8 +1,8 @@
-# _WorldData.Solution_
+# _Epicodus Games_
 
-#### _Program which allows user to view information about countries and cities, 05/06/2019_
+#### _A webpage showcasing games we recreated including space shooter, flappy dog, and cyber fighter, 05/06/2019_
 
-#### By _**Marc Davies and Justin Kerntz**_
+#### By _**Darrion Gering, Marc Davis, Joseph Barnes, and Mike Larraguetta**_
 
 ## Description
 
@@ -41,14 +41,17 @@ _None as of last update._
 
 ## Support and contact details
 
-_Please contact me at marcdaviesriot@gmail.com if you run into any issues or have questions, ideas or feedback._
+_Please contact me at darrionkg@gmail.com if you run into any issues or have questions, ideas or feedback._
 
 ## Technologies Used
 
 _C#_
+_ASP.Net MVC
+_Javascript_
+_Razor_
 
 ### License
 
-*This software is licensed under the GPL license.*
+*This software is licensed under the MIT license.*
 
-Copyright (c) 2019 **_Marc Davies and Justin Kerntz_**
+Copyright (c) 2019 **_Darrion Gering, Marc Davies, Joseph Barnes, and Mike Larraguetta_**
